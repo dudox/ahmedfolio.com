@@ -64,12 +64,12 @@ const About = () => {
                           <span>Ahmed Ahmed</span>
                         </li>
                         <li>
-                          <label>Birthday: </label>
-                          <span>5th May 1996</span>
+                          <label>Courses: </label>
+                          <span>#MentalHealth, #ClimateChange</span>
                         </li>
                         <li>
-                          <label>Age: </label>
-                          <span>25 years</span>
+                          <label>Interest: </label>
+                          <span>AI, ioT, Cyber Security</span>
                         </li>
                         <li>
                           <label>Address: </label>
@@ -85,7 +85,7 @@ const About = () => {
                         </li>
                         <li>
                           <label>Email: </label>
-                          <span>info@domainname.com</span>
+                          <span>work@ahmedfolio.com</span>
                         </li>
                         <li>
                           <label>Skype: </label>

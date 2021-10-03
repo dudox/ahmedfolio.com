@@ -4,14 +4,14 @@ import ContactInfo from "../contact/ContactInfo";
 
 const conctInfo = {
   phone: "+234 701-772-3208",
-  email: " nairobi-designer@domain.com",
+  email: " work@ahmedfolio.com",
 };
 
 const sliderContent = {
   name: "Ahmed Ahmed",
   designation: "Software Engineer",
   description: `Results driven Software Engineer dedicated to developing user-focused solutions for customers with various business objectives `,
-  btnText: " Donwload CV",
+  btnText: " Download CV (263 kb)",
 };
 
 const Slider = () => {
@@ -31,9 +31,7 @@ const Slider = () => {
               <li className="active">
                 <a href="#">EN</a>
               </li>
-              <li>
-                <a href="#">FR</a>
-              </li>
+             
             </ul>
           </div>
         </div>
@@ -62,7 +60,7 @@ const Slider = () => {
                   <TextLoop>
                     <p className="loop-text lead">Software Engineer</p>
                     <p className="loop-text lead"> AWS DevOps Engineer</p>
-                    <p className="loop-text lead"> Flutter Developer</p>
+                    {/* <p className="loop-text lead"> Flutter Developer</p> */}
                   </TextLoop>
                 </div>
 

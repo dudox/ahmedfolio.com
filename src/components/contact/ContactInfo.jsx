@@ -14,7 +14,7 @@ const ContactInfo = () => {
           <li className="media">
             <i className="icon icon-map"></i>
             <span className="media-body">
-              No 12 Akin Philips Close LA, Nigeria.
+              No 12 Akin Philips Close Lagos, Nigeria.
             </span>
           </li>
           {/* End li */}
@@ -27,7 +27,7 @@ const ContactInfo = () => {
 
           <li className="media">
             <i className="icon icon-phone"></i>
-            <span className="media-body">+044 9696 9696 3636</span>
+            <span className="media-body">+234 701 772 3208</span>
           </li>
           {/* End li */}
         </ul>

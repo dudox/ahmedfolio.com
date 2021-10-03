@@ -10,11 +10,14 @@ import {
 import FeatherIcon from "feather-icons-react";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
+  // { Social: <FeatherIcon icon={"facebook"} />, link: "https://www.facebook.com/" },
+  { Social: <FeatherIcon icon={"linkedin"} />, link: "https://linkedin/in/ahmed-ahmed-3a366016b" },
   { Social: <FeatherIcon icon={"github"} />, link: "https://www.github.com/dudox" },
+  { Social: <FeatherIcon icon={"twitter"} />, link: "https://www.twitter.com/trybemark" },
+  { Social: <FeatherIcon icon={"calendar"} />, link: "https://www.calendly.com/ahmed-a" },
+
+  // { Social: <FaInstagram />, link: "https://www.instagram.com/" },
+ 
 ];
 
 const Footer = () => {
@@ -37,11 +40,11 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} copyright{" "}
             <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
+              href="https://trybemark.com"
               target="_blank"
               rel="noreferrer"
             >
-              dudox
+              trybemark
             </a>{" "}
             all right reserved
           </p>

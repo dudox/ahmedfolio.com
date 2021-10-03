@@ -1,20 +1,12 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaPinterestP,
-} from "react-icons/fa";
-
 import FeatherIcon  from 'feather-icons-react';
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
-  { Social: <FeatherIcon icon={"github"} />, link: "https://www.github.com/dudox" },
+  { Social: <FeatherIcon icon={"mail"} size={20} />, link: "mailto:work@ahmedfolio.com" },
+  { Social: <FeatherIcon icon={"phone"} size={20} />, link: "tel:+2347017723208" },
+  { Social: <FeatherIcon icon={"twitter"} size={20} />, link: "https://twitter.com/meedjnr" },
+  { Social: <FeatherIcon icon={"linkedin"} size={20} />, link: "https://www.linkedin.com/in/ahmed-ahmed-3a366016b" },
+  { Social: <FeatherIcon icon={"github"} size={20}/>, link: "https://www.github.com/dudox" },
 ];
 
 const Social = () => {

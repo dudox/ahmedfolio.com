@@ -41,7 +41,7 @@ const Header = () => {
 
           <Scrollspy
             className="nav nav-menu"
-            items={["home", "about", "resume", "work", "blog", "contactus"]}
+            items={["home", "about", "resume", "work", "contactus"]}
             currentClassName="active"
             offset={-30}
           >
@@ -106,7 +106,7 @@ const Header = () => {
                 </ReactTooltip>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="nav-link"
                 href="#blog"
@@ -119,7 +119,7 @@ const Header = () => {
                   <span>Blog</span>
                 </ReactTooltip>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 className="nav-link"
