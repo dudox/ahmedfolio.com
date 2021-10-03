@@ -16,6 +16,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: 
-        npm i
-        npm build
+    - name: Installing packages
+    - run: npm i
+    - name: Building project
+    - run: npm build
+    - name: Deploying react website to digitalocean
+      uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./build
