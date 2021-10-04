@@ -20,8 +20,11 @@ jobs:
     - run: npm i
     - name: Building project
     - run: npm build
-    - name: Deploying react website to digitalocean
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./build
+    - name: Restarting application
+    - run:
+        pm2 stop 0
+        pm2 start 0
+        pm2 save
+    - name: Restarting Apache2 Server
+    - run:
+        sudo service apache2 restart
