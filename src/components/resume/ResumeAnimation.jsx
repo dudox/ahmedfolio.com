@@ -4,41 +4,41 @@ import Skills from "../skills/Skills";
 const resumeContent = [
   {
     jobPosition: `Software Engineering Manager`,
-    jobType: `YouROK Crop. | Remote`,
+    jobType: `Menlo Park CA, USA | Remote`,
     jobDuration: `Mar 2021 - Present`,
     timeDuraton: `Contract`,
     compnayName: "YouROK Corp.",
-    jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    jobDescription: `YouROK is a prevention focused solution developed to address the adolescent mental 
+    health crisis by building emotional resiliency using evidence-informed practices. YouROK offers a
+     handheld gateway to powerful help 
+    with adolescents' greatest challenges in the form of a mobile app called K'Bro.`,
     delayAnimation: "",
   },
   {
     jobPosition: `Tech. Lead Consultant`,
-    jobType: `RADProd | Remote`,
+    jobType: `Los Angeles CA, USA | Remote`,
     jobDuration: `Mar 2021 - Sept 2021`,
     timeDuraton: `Contract`,
     compnayName: "Real Art Daily Production",
-    jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua.`,
+    jobDescription: `Real Art Daily (RAD) Productions, a video production company based in Los Angeles, 
+    is a diverse company with employees representing a wide range of sexualities, gender identities, 
+    races, cultures, and nationalities. Our goal is to create and tell meaningful stories through the 
+    artistic mediums of film and modern media, theatre, animation and music videos.
+
+    `,
     delayAnimation: "100",
   },
   {
     jobPosition: `Sr. Software Engineer`,
-    jobType: `Mayapro1 | Remote`,
+    jobType: `Victoria Island LA, Nigeria | Remote`,
     jobDuration: `Jan 2019 - Jan 2021`,
     timeDuraton: `Full Time`,
     compnayName: "Mayapro1 Limited",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    jobDescription: `A leading Information and Communication Technologies (ICT) firm licensed by Nigerian
+     Communications Commission (NCC) for Value Added Services (VAS) & Content Services Using 
+     Shortcodes (SNC). Mayapro1 Limited has also handles Governments projects in developing smart systems for
+     tracking poor roads in the country
+`,
     delayAnimation: "200",
   },
   

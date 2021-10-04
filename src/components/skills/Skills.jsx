@@ -4,7 +4,7 @@ import VisibilitySensor from "react-visibility-sensor";
 
 const skillContent = [
   {
-    name: "PHP / JavaScript ",
+    name: "PHP / JavaScript / HTML5 / CSS / SCSS / C ",
     numberPercent: "92",
     startCount: "0",
     endCount: "92",

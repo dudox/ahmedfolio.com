@@ -40,7 +40,7 @@ export default function SimpleSlider() {
     {
       imageName: "team-2",
       desc: ` Ahmed has helped the junior members of the team learn. He has helped improve our website performance and led the migration of our Wordpress sites feom Bluehost to a VPS on DigitalOcean. He is helping us to staff a new project to develop our intranet and will lead that’s project too! `,
-      reviewerName: "Georginna Feyest",
+      reviewerName: "Georginna Feyst",
       designation: "CEO at RADProd",
       delayAnimation: "200",
     },

@@ -9,8 +9,8 @@ const AwardContnet = [
   },
   {
     img: "a2",
-    awardName: "GEN (KWASU)",
-    awardFor: "Winner of 2018 Global Entrepreneur",
+    awardName: "GE Network (KWASU)",
+    awardFor: "Winner of 2018 Global Entrepreneur Week",
     delayAnimation: "200",
   },
   {
