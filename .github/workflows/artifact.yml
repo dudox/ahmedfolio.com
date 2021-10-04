@@ -17,9 +17,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Installing packages
-    - run: npm i
+      run: npm i
     - name: Building project
-      run: npm build
+      run: npm run build
     - name: handling environment file
       run: cp .env.example .env
     - name: Restarting application
