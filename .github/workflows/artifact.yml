@@ -20,6 +20,8 @@ jobs:
       run: npm i
     - name: Building project
       run: npm build
+    - name: handling environment file
+      run: cp .env.example .env
     - name: Restarting application
       run: |
         pm2 stop 0
