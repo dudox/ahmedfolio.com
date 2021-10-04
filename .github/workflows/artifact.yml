@@ -21,10 +21,9 @@ jobs:
     - name: Building project
     - run: npm build
     - name: Restarting application
-    - run:
+    - run: |
         pm2 stop 0
         pm2 start 0
         pm2 save
     - name: Restarting Apache2 Server
-    - run:
-        sudo service apache2 restart
+    - run: sudo service apache2 restart
