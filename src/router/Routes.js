@@ -39,7 +39,7 @@ const Routes = () => {
             component={HomeLightProfessional2}
           /> */}
           {/* <Route path="/" component={HomeDark} /> */}
-          <Route path="/" component={HomeDarkAnimation} />
+          <Route path="/" exact component={HomeDarkAnimation} />
           <Route component={NotFound} />
         </Switch>
       </Router>

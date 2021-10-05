@@ -14,14 +14,14 @@ const ContactInfo = () => {
           <li className="media">
             <i className="icon icon-map"></i>
             <span className="media-body">
-              No 12 Akin Philips Close Lagos, Nigeria.
+              Lagos, Nigeria.
             </span>
           </li>
           {/* End li */}
 
           <li className="media">
             <i className="icon icon-envelope"></i>
-            <span className="media-body">support@domain.com</span>
+            <span className="media-body">work@ahmedfolio.com</span>
           </li>
           {/* End li */}
 

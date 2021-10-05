@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/footer/Footer";
+import FooterAnimation from "../components/footer/FooterAnimation";
 import useDocumentTitle from "../components/useDocumentTitle";
 
 const NotFound = () => {
-  useDocumentTitle("Not Found || React Personal Portfolio Template");
+  useDocumentTitle("Not Found | Ahmed Ahmed | Software & DevOps Engineer");
   return (
     <>
       <section className="error-page-wrapper">
@@ -34,7 +34,7 @@ const NotFound = () => {
       {/* Footer */}
       <footer className="footer white">
         <div className="container">
-          <Footer />
+          <FooterAnimation />
         </div>
       </footer>
       {/* End footer */}

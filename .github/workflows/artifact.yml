@@ -1,4 +1,4 @@
-name: Ahmedfolio CI
+name: Deploy to digitalOcean
 
 on:
   push:
@@ -22,10 +22,3 @@ jobs:
       run: npm run build
     - name: handling environment file
       run: cp .env.example .env
-    - name: Restarting application
-      run: |
-        pm2 stop 0
-        pm2 start 0
-        pm2 save
-    - name: Restarting Apache2 Server
-      run: sudo service apache2 restart

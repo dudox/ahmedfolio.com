@@ -1,20 +1,14 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaPinterestP,
-} from "react-icons/fa";
+
 
 import FeatherIcon from "feather-icons-react";
 
 const SocialShare = [
-  // { Social: <FeatherIcon icon={"facebook"} />, link: "https://www.facebook.com/" },
-  { Social: <FeatherIcon icon={"linkedin"} />, link: "https://linkedin/in/ahmed-ahmed-3a366016b" },
-  { Social: <FeatherIcon icon={"github"} />, link: "https://www.github.com/dudox" },
-  { Social: <FeatherIcon icon={"twitter"} />, link: "https://www.twitter.com/trybemark" },
-  { Social: <FeatherIcon icon={"calendar"} />, link: "https://www.calendly.com/ahmed-a" },
+  { Social: <FeatherIcon icon={"phone"} size={18} />, link: "tel:+2347017723208" },
+  { Social: <FeatherIcon icon={"mail"} size={18} />, link: "mailto:work@ahmedfolio.com" },
+  { Social: <FeatherIcon icon={"twitter"} size={18} />, link: "https://twitter.com/meedjnr" },
+  { Social: <FeatherIcon icon={"linkedin"} size={18} />, link: "https://linkedin/in/ahmed-ahmed-3a366016b" },
+  { Social: <FeatherIcon icon={"github"} size={18} />, link: "https://github.com/dudox" },
 
   // { Social: <FaInstagram />, link: "https://www.instagram.com/" },
  
@@ -40,11 +34,11 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} copyright{" "}
             <a
-              href="https://trybemark.com"
+              href="https://ahmedfolio.com"
               target="_blank"
               rel="noreferrer"
             >
-              trybemark
+              ahmedfolio.com
             </a>{" "}
             all right reserved
           </p>
