@@ -9,7 +9,6 @@ import {
   FiPhoneOutgoing,
 } from "react-icons/fi";
 import FeatherIcon from 'feather-icons-react';
-import {  FaBlog } from "react-icons/fa";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -106,20 +105,7 @@ const Header = () => {
                 </ReactTooltip>
               </a>
             </li>
-            {/* <li>
-              <a
-                className="nav-link"
-                href="#blog"
-                data-tip
-                data-for="BLOG"
-                onClick={handleClick}
-              >
-                <FaBlog />
-                <ReactTooltip id="BLOG" place="top" type="dark" effect="float">
-                  <span>Blog</span>
-                </ReactTooltip>
-              </a>
-            </li> */}
+          
             <li>
               <a
                 className="nav-link"
