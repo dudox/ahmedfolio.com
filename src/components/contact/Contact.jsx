@@ -2,8 +2,6 @@ import React from "react";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { css } from "glamor";
 
 
 const Contact = () => {
@@ -37,11 +35,6 @@ const Contact = () => {
 
   const success = (message) => {
     toast.success(message, {
-      className: css({
-        background: "#00FF00 !important",
-        color: "white !important",
-        fontWeight: "bold"
-      }),
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
