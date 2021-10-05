@@ -1,5 +1,10 @@
 import React from "react";
+import axios from "axios";
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { css } from "glamor";
+
 
 const Contact = () => {
   const {
@@ -10,7 +15,42 @@ const Contact = () => {
 
   const onSubmit = (data, e) => {
     e.target.reset();
+    sendMail(data);
     console.log("Message submited: " + JSON.stringify(data));
+  };
+
+  const sendMail = async (data, e) => {
+    const res = await axios.post(
+      `https://api.emailjs.com/api/v1.0/email/send`,
+      {
+        user_id: "user_gXK8mzwEAvfP6S2LTZ0vN",
+        service_id: "service_rfwy1sh",
+        template_id: "template_wjcdxue",
+        template_params: data,
+      }
+    );
+
+    if (res.status === 200) {
+      success("Email Sent Successfully");
+    }
+  };
+
+  const success = (message) => {
+    toast.success(message, {
+      className: css({
+        background: "#00FF00 !important",
+        color: "white !important",
+        fontWeight: "bold"
+      }),
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+     
+    });
   };
 
   return (
