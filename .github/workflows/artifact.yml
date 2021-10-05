@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     
     - name: Installing packages
-      run: npm install
+      run: npm install --legacy-peer-deps
     - name: Building project
       run: npm run build --if-present
   deploy:
