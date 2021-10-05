@@ -29,7 +29,7 @@ const Slider = () => {
           <div className="hb-lang">
             <ul className="nav">
               <li className="active">
-                <a href="#">EN</a>
+                <a href="/">EN</a>
               </li>
              
             </ul>
