@@ -35,6 +35,11 @@ jobs:
       with:
         name: public
         path: public
+    - uses: "finnp/create-file-action@master"
+      env:
+        FILE_NAME: "build/.htaccess"
+        FILE_DATA: "RewriteEngine On"
+
   # deploy:
   #   needs: build
   #   runs-on: ubuntu-latest
