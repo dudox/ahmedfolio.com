@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import FooterAnimation from "../components/footer/FooterAnimation";
-import useDocumentTitle from "../components/useDocumentTitle";
+import useDocumentMeta from "../components/useDocumentMeta";
 
 const NotFound = () => {
-  useDocumentTitle("Not Found | Ahmed Ahmed | Software & DevOps Engineer");
+  useDocumentMeta("Not Found | Ahmed Ahmed | Software & DevOps Engineer");
   return (
     <>
       <section className="error-page-wrapper">
