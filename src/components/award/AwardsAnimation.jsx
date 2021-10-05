@@ -6,18 +6,21 @@ const AwardContnet = [
     awardName: "KWASU NACOSS",
     awardFor: "Tech person of the year",
     delayAnimation: "0",
+    alt: "Kwasu nacoss Logo"
   },
   {
     img: "a2",
     awardName: "GE Network (KWASU)",
     awardFor: "Winner of 2018 Global Entrepreneur Week",
     delayAnimation: "200",
+    alt: "Global Entrepreneur Network Logo"
   },
   {
     img: "a3",
     awardName: "Linux Foundation",
     awardFor: "Scholarship Receipients",
     delayAnimation: "400",
+    alt:"Linux Foundation Training Logo"
   },
 ];
 
@@ -35,7 +38,7 @@ const Awards = () => {
           >
             <div className="feature-box-02 d-flex align-items-center">
               <div className="icon">
-                <img src={`img/award/${val.img}.png`} alt="award image" />
+                <img src={`img/award/${val.img}.png`} alt={`${val.alt}`} />
               </div>
               <div className="media-body">
                 <h6>{val.awardName}</h6>
