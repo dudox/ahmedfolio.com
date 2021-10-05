@@ -11,7 +11,7 @@ const sliderContent = {
   name: "Ahmed Ahmed",
   designation: "Software Engineer",
   description: `Results driven Software Engineer dedicated to developing user-focused solutions for customers with various business objectives `,
-  btnText: " Download CV (263 kb)",
+  btnText: " Download CV (361.0 kB)",
 };
 
 const Slider = () => {
@@ -80,7 +80,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="img/resume.png"
+                    href="docs/Ahmed_Ahmed_Resume.pdf"
                     download
                   >
                     {sliderContent.btnText}
