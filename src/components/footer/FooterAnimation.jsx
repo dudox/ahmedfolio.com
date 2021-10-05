@@ -7,7 +7,7 @@ const SocialShare = [
   { Social: <FeatherIcon icon={"phone"} size={18} />, link: "tel:+2347017723208" },
   { Social: <FeatherIcon icon={"mail"} size={18} />, link: "mailto:work@ahmedfolio.com" },
   { Social: <FeatherIcon icon={"twitter"} size={18} />, link: "https://twitter.com/meedjnr" },
-  { Social: <FeatherIcon icon={"linkedin"} size={18} />, link: "https://linkedin/in/ahmed-ahmed-3a366016b" },
+  { Social: <FeatherIcon icon={"linkedin"} size={18} />, link: "https://linkedin.com/in/ahmed-ahmed-3a366016b" },
   { Social: <FeatherIcon icon={"github"} size={18} />, link: "https://github.com/dudox" },
 
   // { Social: <FaInstagram />, link: "https://www.instagram.com/" },
