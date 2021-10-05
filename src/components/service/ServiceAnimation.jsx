@@ -3,23 +3,24 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "icon-mobile",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Web & App Development.",
+    descriptions: `I have, over the years developed responsive creative web and mobile applications in areas such as
+    ecommerce, smart systems, B2B and
+    many more`,
     delayAnimation: "",
   },
   {
     icon: "icon-desktop",
-    title: "Web Development",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "DevOps & Cloud Consulting",
+    descriptions: `I provide cloud consultting, helping small business scale their systems to a wider audience based on 
+    their budgets, setting up ci/cd automation, kubernetes, docker and microservices architecture`,
     delayAnimation: "200",
   },
   {
     icon: "icon-target",
-    title: "Seo Marketing",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Third-Party Integration",
+    descriptions: `Equipped with integrating a wide range of third-party libraries to help facilitate ease of security and
+    optimal system reliability, such as payments gateways, SMEs and countless other services. `,
     delayAnimation: "400",
   },
 ];
