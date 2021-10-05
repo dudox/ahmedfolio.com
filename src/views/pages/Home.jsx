@@ -9,10 +9,10 @@ import Contact from "../../components/contact/Contact";
 import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/FooterAnimation";
-import useDocumentTitle from "../../components/useDocumentTitle";
+import useDocumentMeta from "../../components/useDocumentMeta";
 
-const HomeOne = () => {
-  useDocumentTitle(
+const Home = () => {
+  useDocumentMeta(
     "Ahmed Ahmed | Software Engineer & DevOps"
   );
   return (
@@ -99,4 +99,4 @@ const HomeOne = () => {
   );
 };
 
-export default HomeOne;
+export default Home;
