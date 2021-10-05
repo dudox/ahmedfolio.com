@@ -35,13 +35,12 @@ jobs:
       with:
         name: public
         path: public
-    - uses: "bash"
     - name: "Generating .htaccess file"
       run: |
-        echo RewriteEngine On >> .htaccess
-        echo RewriteCond %{REQUEST_FILENAME} !-f > .htaccess
-        echo RewriteCond %{REQUEST_FILENAME} !-d > .htaccess
-        echo RewriteRule ^(.*)$ /index.html [L,QSA] > .htaccess
+        echo RewriteEngine On > .htaccess
+        echo RewriteCond %{REQUEST_FILENAME} !-f >> .htaccess
+        echo RewriteCond %{REQUEST_FILENAME} !-d >> .htaccess
+        echo RewriteRule ^(.*)$ /index.html [L,QSA] >> .htaccess
 
   # deploy:
   #   needs: build
