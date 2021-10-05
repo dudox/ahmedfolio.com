@@ -36,6 +36,7 @@ jobs:
         name: public
         path: public
     - name: "Generating .htaccess file"
+      working-directory: "./build"
       run: |
         echo "RewriteEngine On" > .htaccess
         echo "RewriteCond %{REQUEST_FILENAME} !-f" >> .htaccess
