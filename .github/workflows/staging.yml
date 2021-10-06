@@ -1,9 +1,9 @@
-name: Deploy to digitalOcean
+name: Staging Deployment
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - prod-*
 
 jobs:
   build:
@@ -29,11 +29,17 @@ jobs:
       run: npm install --legacy-peer-deps
     - name: Building project
       run: npm run build --if-present
+
+  staging:
+    needs: build
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
     - name: Save public folder
       uses: actions/upload-artifact@v2
       with:
         name: public
-        path: public
+        path: ${{ secrets.PROJECT_DIR }}
     - name: "Generating .htaccess file"
       working-directory: "./build"
       run: |

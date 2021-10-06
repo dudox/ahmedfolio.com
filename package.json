@@ -40,11 +40,23 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+ 
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
+  },
+  "keywords": [
+    "portfolio",
+    "ahmed",
+    "resume",
+    "software engineer",
+    "dudox",
+    "freelancer"
+  ],
+  "bugs": {
+    "url": "https://github.com/dudox/ahmedfolio.com/issues"
   },
   "browserslist": {
     "production": [
