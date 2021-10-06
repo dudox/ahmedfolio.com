@@ -1,7 +1,10 @@
+import React from "react";
 import { render } from '@testing-library/react';
-import AboutAnimation from '../AboutAnimation';
+import '@testing-library/jest-dom';
+import AboutAnimation from "../AboutAnimation";
 
-test('renders learn react link', () => {
-  render(<AboutAnimation />);
-  expect(<AboutAnimation />).toMatchSnapshot();
+
+it("renders", () => {
+  const { asFragment } = render(<AboutAnimation  />);
+  expect(asFragment()).toMatchSnapshot();
 });
