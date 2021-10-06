@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 import { FiPlus } from "react-icons/fi";
+import FeatherIcon from "feather-icons-react";
 import Masonry from "react-masonry-css";
 
 const breakpointColumnsObj = {
@@ -12,13 +13,19 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Branding", "Photography", "Fashion", "Product"];
+const tabList = ["All", "Laravel", "ReactJS", "Flutter"];
 const AllPortfolioContent = [
   {
-    img: "m-portfolio-1",
-    title: "Bottle Illustration",
-    subTitle: "Figma Shoot",
-    alterText: "Bottle Illustration",
+    img: "ferma",
+    title: "FERMA",
+    subTitle: "Federal Road Mentainance Agency (Nigeria)",
+    alterText: `Ferma is a road maintenance platform that uses SMEs technologies
+     and USSD to report bad federal roads in Nigeria. With just a simple *123*345# 
+     You can select the current local govt where the road is then report that bad road, 
+     during the process, you will also receive a prompt asking if you would like to upload an 
+     image of the bad road thus sending a one-time link. Project has an analytics dashboard where 
+     the data are correlated into smart graphs and metrics for decision making https://ddsd.com`,
+     url: "https://ferma.smartsahara.com",
     delayAnimation: "",
   },
   {
@@ -232,12 +239,13 @@ const PortfolioAnimation = () => {
                             src={`img/portfolio/${val.img}.jpg`}
                             alt={val.alterText}
                           />
+                          
                         </a>
                         {/* End gallery link */}
 
-                        <div className="portfolio-icon">
-                          <FiPlus />
-                        </div>
+                        <a href={val.url ?? ""} className="portfolio-icon" style={{zIndex:100000}}>
+                          <FeatherIcon icon={"link"} />
+                        </a>
                         {/* End .portfolio-icon */}
                       </div>
                     </div>
