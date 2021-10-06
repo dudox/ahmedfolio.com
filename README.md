@@ -1,4 +1,6 @@
 # Ahmed's Personal Portfolio Website
+![continuous integration](https://github.com/dudox/ahmedfolio.com/actions/workflows/continuous-integration.yml/badge.svg)
+![production](https://github.com/dudox/ahmedfolio.com/actions/workflows/production.yml/badge.svg)
 
 ## Description
 
