@@ -1,4 +1,4 @@
-name: Production 
+name: Production
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
- build:
+  build:
     name: Build and Test
     runs-on: ubuntu-latest
     steps:
@@ -23,35 +23,35 @@ jobs:
   deploy:
     runs-on: self-hosted
     steps:
-    - uses: actions/checkout@v2
-    - name: Ahmedfolio CI ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Cache node modules
-      uses: actions/cache@v2
-      env:
-        cache-name: cache-node-modules
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-build-${{ env.cache-name }}-
-          ${{ runner.os }}-build-
-          ${{ runner.os }}-
-    - name: Installing packages
-      run: npm install --legacy-peer-deps
-    - name: Building project
-      run: npm run build --if-present
-    - name: Save public folder
-      uses: actions/upload-artifact@v2
-      with:
-        name: public
-        path: public
-    - name: "Generating .htaccess file"
-      working-directory: "./build"
-      run: |
-        echo "RewriteEngine On" > .htaccess
-        echo "RewriteCond %{REQUEST_FILENAME} !-f" >> .htaccess
-        echo "RewriteCond %{REQUEST_FILENAME} !-d" >> .htaccess
-        echo "RewriteRule ^(.*)$ /index.html [L,QSA]" >> .htaccess
+      - uses: actions/checkout@v2
+      - name: Ahmedfolio CI ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Installing packages
+        run: npm install --legacy-peer-deps
+      - name: Building project
+        run: npm run build --if-present
+      - name: Save public folder
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: public
+      - name: "Generating .htaccess file"
+        working-directory: "./build"
+        run: |
+          echo "RewriteEngine On" > .htaccess
+          echo "RewriteCond %{REQUEST_FILENAME} !-f" >> .htaccess
+          echo "RewriteCond %{REQUEST_FILENAME} !-d" >> .htaccess
+          echo "RewriteRule ^(.*)$ /index.html [L,QSA]" >> .htaccess
