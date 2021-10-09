@@ -16,7 +16,7 @@ const Home = () => {
     "Ahmed Ahmed | Software Engineer & DevOps"
   );
   return (
-    <div className="main-left theme-dark">
+    <div id="app_main" className="main-left theme-dark">
       <Header />
       {/* End Header Section */}
 
