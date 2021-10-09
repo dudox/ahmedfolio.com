@@ -1,6 +1,7 @@
 import React from "react";
 import TextLoop from "react-text-loop";
 import ContactInfo from "../contact/ContactInfo";
+import ToggleThemeMode from "../mode/ToggleThemeMode";
 
 const conctInfo = {
   phone: "+234 701-772-3208",
@@ -28,8 +29,8 @@ const Slider = () => {
           </div>
           <div className="hb-lang">
             <ul className="nav">
-              <li className="active">
-                <a href="/">EN</a>
+              <li className="text-light">
+               <ToggleThemeMode />
               </li>
              
             </ul>
