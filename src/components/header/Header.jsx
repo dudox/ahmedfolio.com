@@ -8,7 +8,8 @@ import {
   FiFileText,
   FiPhoneOutgoing,
 } from "react-icons/fi";
-import FeatherIcon from 'feather-icons-react';
+import FeatherIcon from "feather-icons-react";
+import ToggleThemeMode from "../mode/ToggleThemeMode";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -105,7 +106,7 @@ const Header = () => {
                 </ReactTooltip>
               </a>
             </li>
-          
+
             <li>
               <a
                 className="nav-link"
@@ -123,6 +124,11 @@ const Header = () => {
                 >
                   <span>Contact</span>
                 </ReactTooltip>
+              </a>
+            </li>
+            <li>
+              <a className="nav-link" href="#mode">
+                <ToggleThemeMode />
               </a>
             </li>
           </Scrollspy>
