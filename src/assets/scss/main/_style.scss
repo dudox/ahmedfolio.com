@@ -149,15 +149,15 @@
             font-weight: 500;
           }
         }
-        &:hover,
-        &.active {
-          background: $px-theme;
-          a {
-            .theme-light & {
-              color: $px-white;
-            }
-          }
-        }
+        // &:hover,
+        // &.active {
+        //   background: $px-theme;
+        //   a {
+        //     .theme-light & {
+        //       color: $px-white;
+        //     }
+        //   }
+        // }
       }
     }
   }
