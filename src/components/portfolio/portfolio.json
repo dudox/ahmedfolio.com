@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "img": "ferma/main",
+    "title": "FERMA",
+    "subTitle": "Federal Road Mentainance Agency (Nigeria)",
+    "alterText": "Ferma is a road maintenance platform that uses SMEs technologies and USSD to report bad federal roads in Nigeria. With just a simple *123*345#  You can select the current local govt where the road is then report that bad road, during the process, you will also receive a prompt asking if you would like to upload an image of the bad road thus sending a one-time link. Project has an analytics dashboard where the data are correlated into smart graphs and metrics for decision making https://ddsd.com",
+    "url": "https://ferma.smartsahara.com",
+    "delayAnimation": "",
+    "images": [
+      {}
+    ],
+    "challenges": [
+      {
+        "title": "YES YES YES",
+        "name": ""
+      },
+      {
+        "title": "",
+        "name": ""
+      }
+    ],
+    "category": "Laravel"
+  },
+  {
+    "id": 2,
+    "img": "m-portfolio-2",
+    "title": "Kidaccess",
+    "subTitle": "Digital e-Learning App",
+    "alterText": "Kidaccess is an e-learning application for students using the Nigerian education system from Nursery 1 to Primary 6. \n This solution, provides a standard prescribed learning courses based on the student classes, a time table, a learning scheme and weekly assements challenges for each of their preferred subjects. In this app, a student can self register or be invited by their designated teacher to onboard the app, afterwards, they are assigned to a specific learning class which could include subjects like, quantitative, verbal reasoning, english, maths etc... Once this is done, they can now unlock weekly assesments set by their designated teachers. \n This is an instant learning application, which means once they answer the questions. Their total score is shown to them for the week and this gets populated to the assesments records for further academic cummulation.",
+    "delayAnimation": "100",
+    "images": [
+      {
+        "src": "m-portfolio-3",
+        "alt": ""
+      },
+      {
+        "src": "m-portfolio-3",
+        "alt": ""
+      },
+      {
+        "src": "m-portfolio-3",
+        "alt": ""
+      },
+      {
+        "src": "m-portfolio-3",
+        "alt": ""
+      }
+    ],
+    "stacks": [
+      "Flutter",
+      "Firebase",
+      "MySQL",
+      "PHP"
+    ],
+    "journey": [
+      {
+        "title": "Background",
+        "description": "<p>Unlike what I had develop in the past, a school management system was a bit far from normal, I had hoped to develop one during my journey as a software engineer but I hadn't been confronted with one just yet. When I had finally gotten a gig request from an NGO in the United Kingdom, the search I presume was for the contract role for a Fullstack Developer, one would argue that the word 'Fullstack' seem benial and far from reality but I thought to myself. If I am to pull this off, I might as well be qualified to refer to myself as one. After meeting with the clients, or potential client as one might prefer; since at that point, I hadn't been officially hired for the position. they eventually disclosed the project concept and won't you guess what it was?! Yes, you guessed right. A <strong>School Management System</strong>, I was more than interested, the experience for me was all that mattered, another dragon to slay and I was also akeen to the project requirements because like what we already established in my biography, I like to give 110%</p>"
+      },
+      {
+        "title": "Concept",
+        "description": "<p>I was enventually trusted with the oversight and development of the product, they had discussed carefully what they wanted. Although, I am very aware that sometimes, clients aren't always technically savvy thus might end up shooting themselves in the legs, whilst some might know exactly what they want ?! I always offer technical consultation about their products thus giving them a clear path to visualizing what the deliverables are. In this particular project. They wanted something quite different from the generic School Management System. Since it was an NGO, their objectives for this project was to partner with schools in giving out free digital tabs to students where Kidaccess would be pre-installed. Then onboard techers under their already partnered instituion. In this whole paradigm, with an urgency to understand the models, relationships and responsibility these actors had indifferent to one another, I made alot of research and created use cases. The product concept was more like a business to business solution, even though it didn't seem so at first ?! Meeting up to every deliverables projected a much more opportuinistic product with countless problem solving realm to explore.  </p>"
+      },
+      {
+        "title": "Challenges",
+        "description": "<p>There was one distinctive challenge faced during this particular product journey, <br/><strong className='text-light ms-3' style={{color:'#fff'}} >Too Many Shifting Dynamics: </strong>I know this sounds like something out of Seth Macfarlane's series, The Orville but hear me out. It's common for there to be changes in client's objective during the development phase, one could even argue that every software engineer anticipate this especially when you're a freelancer thus working with someone at an idea stage. Yes, I did anticipate shifting dynamics but it became quite a difficulty for me when it became too frequent. Newer upgrades outside the agreed deliverables became so much. Like I said, the product was quite broad that it opened room for a lot of opportuinities and exploits, my client wanted to explore all these exploits during the development which eventually delayed the agreed upon deadline for the product. </p>"
+      }
+    ],
+    "category": "Laravel",
+    "timelines": [
+      {
+        "brand": "Brand",
+        "icon": "tag",
+        "value":"Kidaccess",
+        "delayAnimation":100
+      },
+      {
+        "brand": "Timeframe",
+        "icon": "calendar",
+        "value":"3 Months",
+        "delayAnimation":200
+      },
+      {
+        "brand": "Country",
+        "icon": "map-pin",
+        "value":"United Kingdom",
+        "delayAnimation":300
+      }
+    ],
+    "reviews":[
+      {
+        "name":"Makinde Tunji",
+        "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
+        "img":"",
+        "company":"Freelancer",
+        "role":"UI / UX Designer",
+        "stars":5
+      }
+    ],
+    "url": "https://ferma.smartsahara.com"
+  },
+  {
+    "id": 3,
+    "title": "Anointing Global App",
+    "img":"ag/main",
+    "subTitle": "Private Church Application",
+    "alterText": "Kidaccess is an e-learning application for students using the Nigerian education system from Nursery 1 to Primary 6. \n This solution, provides a standard prescribed learning courses based on the student classes, a time table, a learning scheme and weekly assements challenges for each of their preferred subjects. In this app, a student can self register or be invited by their designated teacher to onboard the app, afterwards, they are assigned to a specific learning class which could include subjects like, quantitative, verbal reasoning, english, maths etc... Once this is done, they can now unlock weekly assesments set by their designated teachers. \n This is an instant learning application, which means once they answer the questions. Their total score is shown to them for the week and this gets populated to the assesments records for further academic cummulation.",
+    "delayAnimation": "100",
+    "images": [
+      {
+        "src": "ag/02",
+        "alt": ""
+      },
+      {
+        "src": "ag/03",
+        "alt": ""
+      },
+      {
+        "src": "ag/04",
+        "alt": ""
+      },
+      {
+        "src": "ag/05",
+        "alt": ""
+      },
+      {
+        "src": "ag/06",
+        "alt": ""
+      },
+      {
+        "src": "ag/07",
+        "alt": ""
+      }
+
+    ],
+    "stacks": [
+      "Flutter",
+      "Firebase",
+      "MySQL",
+      "PHP"
+    ],
+    "journey": [
+      {
+        "title": "Background",
+        "description": "<p>Unlike what I had develop in the past, a school management system was a bit far from normal, I had hoped to develop one during my journey as a software engineer but I hadn't been confronted with one just yet. When I had finally gotten a gig request from an NGO in the United Kingdom, the search I presume was for the contract role for a Fullstack Developer, one would argue that the word 'Fullstack' seem benial and far from reality but I thought to myself. If I am to pull this off, I might as well be qualified to refer to myself as one. After meeting with the clients, or potential client as one might prefer; since at that point, I hadn't been officially hired for the position. they eventually disclosed the project concept and won't you guess what it was?! Yes, you guessed right. A <strong>School Management System</strong>, I was more than interested, the experience for me was all that mattered, another dragon to slay and I was also akeen to the project requirements because like what we already established in my biography, I like to give 110%</p>"
+      },
+      {
+        "title": "Concept",
+        "description": "<p>I was enventually trusted with the oversight and development of the product, they had discussed carefully what they wanted. Although, I am very aware that sometimes, clients aren't always technically savvy thus might end up shooting themselves in the legs, whilst some might know exactly what they want ?! I always offer technical consultation about their products thus giving them a clear path to visualizing what the deliverables are. In this particular project. They wanted something quite different from the generic School Management System. Since it was an NGO, their objectives for this project was to partner with schools in giving out free digital tabs to students where Kidaccess would be pre-installed. Then onboard techers under their already partnered instituion. In this whole paradigm, with an urgency to understand the models, relationships and responsibility these actors had indifferent to one another, I made alot of research and created use cases. The product concept was more like a business to business solution, even though it didn't seem so at first ?! Meeting up to every deliverables projected a much more opportuinistic product with countless problem solving realm to explore.  </p>"
+      },
+      {
+        "title": "Challenges",
+        "description": "<p>There was one distinctive challenge faced during this particular product journey, <br/><strong className='text-light ms-3' style={{color:'#fff'}} >Too Many Shifting Dynamics: </strong>I know this sounds like something out of Seth Macfarlane's series, The Orville but hear me out. It's common for there to be changes in client's objective during the development phase, one could even argue that every software engineer anticipate this especially when you're a freelancer thus working with someone at an idea stage. Yes, I did anticipate shifting dynamics but it became quite a difficulty for me when it became too frequent. Newer upgrades outside the agreed deliverables became so much. Like I said, the product was quite broad that it opened room for a lot of opportuinities and exploits, my client wanted to explore all these exploits during the development which eventually delayed the agreed upon deadline for the product. </p>"
+      }
+    ],
+    "category": "Laravel",
+    "timelines": [
+      {
+        "brand": "Brand",
+        "icon": "tag",
+        "value":"Kidaccess",
+        "delayAnimation":100
+      },
+      {
+        "brand": "Timeframe",
+        "icon": "calendar",
+        "value":"3 Months",
+        "delayAnimation":200
+      },
+      {
+        "brand": "Country",
+        "icon": "map-pin",
+        "value":"United Kingdom",
+        "delayAnimation":300
+      }
+    ],
+    "reviews":[
+      {
+        "name":"Makinde Tunji",
+        "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
+        "img":"",
+        "company":"Freelancer",
+        "role":"UI / UX Designer",
+        "stars":5
+      }
+    ],
+    "url": "https://ferma.smartsahara.com"
+  },
+  {
+    "id": 4,
+    "img": "kidaccess/cover",
+    "title": "Business Card",
+    "subTitle": "Graphicriver Market",
+    "alterText": "E-Cosmetics",
+    "delayAnimation": "0"
+  }
+]
