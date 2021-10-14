@@ -13,7 +13,6 @@ import PortfolioKey from "./PortfolioKey";
 import PortfolioReview from "./PortfolioReview";
 import useDocumentMeta from "../useDocumentMeta";
 import FeatherIcon from "feather-icons-react";
-import ToggleThemeMode from "../mode/ToggleThemeMode";
 
 const PortfolioDetails = ({ show, setShow, data }) => {
   useDocumentMeta(
