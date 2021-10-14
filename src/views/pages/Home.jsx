@@ -12,9 +12,7 @@ import Footer from "../../components/footer/FooterAnimation";
 import useDocumentMeta from "../../components/useDocumentMeta";
 
 const Home = () => {
-  useDocumentMeta(
-    "Ahmed Ahmed | Software Engineer & DevOps"
-  );
+  useDocumentMeta("Ahmed Ahmed | Software Engineer & DevOps");
   return (
     <div id="app_main" className="main-left theme-dark">
       <Header />
@@ -38,7 +36,7 @@ const Home = () => {
         </div>
       </section>
       {/* End Portfolio Section */}
-{/* 
+      {/*
       <section id="blog" className="section">
         <div className="container">
           <div className="title">
