@@ -5,7 +5,12 @@ const PortfolioReview = ({ content }) => {
   const stars = [];
   for (var i = 0; i < content.stars; i++) {
     stars.push(
-      <FeatherIcon key={i} icon={"star"} className="text-warning me-2" size={14} />
+      <FeatherIcon
+        key={i}
+        icon={"star"}
+        className="text-warning me-2"
+        size={14}
+      />
     );
   }
   return (
@@ -17,7 +22,7 @@ const PortfolioReview = ({ content }) => {
       <div className="testimonial-01 media">
         <div className="avatar">
           <img
-            src={`img/testimonial/${content.imageName}.jpg`}
+            src={`img/portfolio/${content.img}.jpg`}
             alt="review comments"
           ></img>
         </div>
