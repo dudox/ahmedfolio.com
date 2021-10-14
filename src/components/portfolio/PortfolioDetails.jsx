@@ -8,18 +8,22 @@ import "slick-carousel/slick/slick-theme.css";
 import Contact from "../contact/Contact";
 import ContactInfo from "../contact/ContactInfo";
 import Map from "../contact/Map";
-import Footer from "../footer/FooterAnimation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PortfolioKey from "./PortfolioKey";
 import PortfolioReview from "./PortfolioReview";
+import useDocumentMeta from "../useDocumentMeta";
+import FeatherIcon from "feather-icons-react";
 
 const PortfolioDetails = ({ show, setShow, data }) => {
+  useDocumentMeta(
+    data ? data.title + " | " + data.subTitle : null,
+    data ? data.alterText : null
+  );
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5,
+      items: data.imageCount ? data.imageCount : 8,
       slidesToSlide: 1, // optional, default to 1.
-      partialVisibilityGutter: 2,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -28,9 +32,9 @@ const PortfolioDetails = ({ show, setShow, data }) => {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 2,
+      items: 3,
       slidesToSlide: 1, // optional, default to 1.
-      partialVisibilityGutter: 3,
+      partialVisibilityGutter: 6,
     },
   };
   const settings = {
@@ -58,17 +62,30 @@ const PortfolioDetails = ({ show, setShow, data }) => {
     ],
   };
 
+  const closeModal = () => {
+    setShow(false);
+  };
+
   return (
     <>
-      <Modal
-        show={show}
-        fullscreen={true}
-        onHide={() => setShow(setShow)}
-        scrol
-        lable={false}
-      >
-        <div id="app_mai" className="theme-dark ">
-          <section id="description" className="section theme-light dark-bg">
+      <Modal show={show} onHide={() => setShow(setShow)} fullscreen={true}>
+        <div id="app_main" className="app_main theme-dark ">
+          <FeatherIcon
+            icon={"x-circle"}
+            size={30}
+            style={{
+              right: "20px",
+              top: "20px",
+              zIndex: "100000",
+              cursor: "pointer",
+            }}
+            className="position-absolute theme-light text-warning"
+            onClick={() => closeModal()}
+          />
+          <section
+            id="description"
+            className="section py-5 theme-light dark-bg"
+          >
             <div className="container">
               <div className="title">
                 <h3>{data.title}</h3>
@@ -76,41 +93,46 @@ const PortfolioDetails = ({ show, setShow, data }) => {
               <h6>{data.subTitle}</h6>
               <p>{data.alterText}</p>
               <p>
-                Live Website: <a href={data.url}>{data.url}</a>
+                Live Website:{" "}
+                {data.live ? (
+                  <a href={data.live["url"]}>{data.live["label"]}</a>
+                ) : (
+                  ""
+                )}
               </p>
 
               {Object.keys(data).length > 0
-                ? data.stacks.map((content) => (
-                    <span className="badge bg-dark me-1">{content}</span>
+                ? data.stacks.map((content, key) => (
+                    <span key={key} className="badge bg-dark me-1">
+                      {content}
+                    </span>
                   ))
                 : null}
               <div
                 className="mt-3"
                 style={{
-                  width: "100%",
-                  position: "absolute",
-                  left: "0",
-                  minHeight: "100%",
-                  height: "auto",
+                  left: 0,
+                  width: "100vw",
+                  marginLeft: "calc(-50vw + 50%)",
                 }}
               >
                 <Carousel
                   responsive={responsive}
-                  additionalTransfrom={0}
+                  additionalTransfrom={100}
                   partialVisible
-                  autoPlaySpeed={3000}
                   draggable
-                  focusOnSelect={false}
-                  infinite={false}
+                  infinite={true}
                   customLeftArrow={<></>}
                   customRightArrow={<></>}
-                  keyBoardControl
+                  keyBoardControl={true}
                   minimumTouchDrag={100}
                   swipeable
+                  itemClass="me-1"
                 >
                   {Object.keys(data).length > 0
-                    ? data.images.map((content) => (
+                    ? data.images.map((content, key) => (
                         <img
+                          key={key}
                           src={`img/portfolio/${content.src}.jpg`}
                           alt={content.alt}
                         />
@@ -118,43 +140,44 @@ const PortfolioDetails = ({ show, setShow, data }) => {
                     : null}
                 </Carousel>
               </div>
-            </div>
-          </section>
 
-          <section id="work" className="section theme-light dark-bg">
-            <div className="container">
-              <div className="title">
-                <h3>Product Journey</h3>
-              </div>
-              {Object.keys(data).length > 0
-                ? data.journey.map((content) => (
-                    <>
-                      <h6>{content.title}</h6>
-                      <div
-                        dangerouslySetInnerHTML={{
-                          __html: content.description,
-                        }}
-                      />
-                    </>
-                  ))
-                : null}
-            </div>
-          </section>
-
-          <section id="work" className="section theme-light dark-bg">
-            <div className="container">
-              <div className="title">
-                <h3>Addition Information </h3>
-              </div>
-              <div className="row">
+              <div className="row mt-5">
                 {Object.keys(data).length > 0
                   ? data.timelines.map((content, i) => (
                       <PortfolioKey key={i} content={content} />
                     ))
                   : null}
               </div>
-              <div className="title mt-5">
-                <h3>& Reviews</h3>
+            </div>
+          </section>
+
+          <section id="journey" className="section py-5 theme-light dark-bg">
+            <div className="container">
+              <div className="title">
+                <h3>Product Journey</h3>
+              </div>
+              {Object.keys(data).length > 0
+                ? data.journey.map((content, key) => (
+                    <div key={key}>
+                      <h6>{content.title}</h6>
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: content.description,
+                        }}
+                      />
+                    </div>
+                  ))
+                : null}
+            </div>
+          </section>
+
+          <section
+            id="review"
+            className="section pt-0 pb-5 theme-light dark-bg"
+          >
+            <div className="container">
+              <div className="title">
+                <h3>& Review(s)</h3>
               </div>
               <div className="row">
                 <div className="testimonial-wrapper">
@@ -170,7 +193,7 @@ const PortfolioDetails = ({ show, setShow, data }) => {
             </div>
           </section>
 
-          <section id="contactus" className="section theme-light dark-bg">
+          <section id="contactus" className="section py-5 theme-light dark-bg">
             <div className="container">
               <div className="row">
                 <div
@@ -208,13 +231,6 @@ const PortfolioDetails = ({ show, setShow, data }) => {
               </div>
             </div>
           </section>
-          {/* End Contact Section */}
-
-          <footer className="footer white">
-            <div className="container">
-              <Footer />
-            </div>
-          </footer>
           {/* End Contact Section */}
         </div>
       </Modal>
