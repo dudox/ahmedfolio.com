@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { SRLWrapper } from "simple-react-lightbox";
 import Masonry from "react-masonry-css";
@@ -13,21 +13,20 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Laravel", "ReactJS", "Flutter"];
+const tabList = ["All"];
 
 const PortfolioAnimation = () => {
-
   const [show, setShow] = useState(false);
   const [content, setContent] = useState({});
 
   const handleShow = (val) => {
     setShow(true);
     setContent(val);
-  }
-  
+  };
+
   return (
     <>
-     <PortfolioDetails show={show} setShow={setShow} data={content}  />
+      <PortfolioDetails show={show} setShow={setShow} data={content} />
 
       <div className="portfolio-filter-01">
         <Tabs>
@@ -46,12 +45,16 @@ const PortfolioAnimation = () => {
                   columnClassName="my-masonry-grid_column"
                 >
                   {portfolio.map((val, i) => (
-                    <PortfolioCard key={i} data={val} handleShow={() =>handleShow(val)}/>
+                    <PortfolioCard
+                      key={i}
+                      data={val}
+                      handleShow={() => handleShow(val)}
+                    />
                   ))}
                 </Masonry>
               </div>
             </TabPanel>
-
+            {/*
             <TabPanel>
               <div className="portfolio-content">
                 <Masonry
@@ -60,7 +63,11 @@ const PortfolioAnimation = () => {
                   columnClassName="my-masonry-grid_column"
                 >
                   {portfolio.map((val, i) => (
-                    <PortfolioCard key={i} data={val} challenges={val.challenges}/>
+                    <PortfolioCard
+                      key={i}
+                      data={val}
+                      challenges={val.challenges}
+                    />
                   ))}
                 </Masonry>
               </div>
@@ -92,7 +99,7 @@ const PortfolioAnimation = () => {
                   ))}
                 </Masonry>
               </div>
-            </TabPanel>
+            </TabPanel> */}
           </SRLWrapper>
         </Tabs>
       </div>
