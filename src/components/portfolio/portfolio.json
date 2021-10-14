@@ -272,13 +272,13 @@
       {
         "brand": "Timeframe",
         "icon": "calendar",
-        "value":"2 Months",
+        "value":"1 Month",
         "delayAnimation":200
       },
       {
         "brand": "Country",
         "icon": "map-pin",
-        "value":"Nigeria",
+        "value":"United Kingdom",
         "delayAnimation":300
       }
     ],
