@@ -4,67 +4,63 @@
     "img": "ferma/main",
     "title": "FERMA",
     "subTitle": "Federal Road Mentainance Agency (Nigeria)",
-    "alterText": "Ferma is a road maintenance platform that uses SMEs technologies and USSD to report bad federal roads in Nigeria. With just a simple *123*345#  You can select the current local govt where the road is then report that bad road, during the process, you will also receive a prompt asking if you would like to upload an image of the bad road thus sending a one-time link. Project has an analytics dashboard where the data are correlated into smart graphs and metrics for decision making https://ddsd.com",
-    "url": "https://ferma.smartsahara.com",
-    "delayAnimation": "",
-    "images": [
-      {}
-    ],
-    "challenges": [
-      {
-        "title": "YES YES YES",
-        "name": ""
-      },
-      {
-        "title": "",
-        "name": ""
-      }
-    ],
-    "category": "Laravel"
-  },
-  {
-    "id": 2,
-    "img": "m-portfolio-2",
-    "title": "Kidaccess",
-    "subTitle": "Digital e-Learning App",
-    "alterText": "Kidaccess is an e-learning application for students using the Nigerian education system from Nursery 1 to Primary 6. \n This solution, provides a standard prescribed learning courses based on the student classes, a time table, a learning scheme and weekly assements challenges for each of their preferred subjects. In this app, a student can self register or be invited by their designated teacher to onboard the app, afterwards, they are assigned to a specific learning class which could include subjects like, quantitative, verbal reasoning, english, maths etc... Once this is done, they can now unlock weekly assesments set by their designated teachers. \n This is an instant learning application, which means once they answer the questions. Their total score is shown to them for the week and this gets populated to the assesments records for further academic cummulation.",
+    "alterText": "Ferma is a road maintenance platform that uses SMEs technologies and USSD to report bad federal roads in Nigeria. With just a simple *123*345#  You can select the current local govt where the road is then report that bad road, during the process, you will also receive a prompt asking if you would like to upload an image of the bad road thus sending a one-time link. Project has an analytics dashboard where the data are correlated into smart graphs and metrics for decision making",
     "delayAnimation": "100",
     "images": [
       {
-        "src": "m-portfolio-3",
+        "src": "ferma/01",
         "alt": ""
       },
       {
-        "src": "m-portfolio-3",
+        "src": "ferma/02",
         "alt": ""
       },
       {
-        "src": "m-portfolio-3",
+        "src": "ferma/03",
         "alt": ""
       },
       {
-        "src": "m-portfolio-3",
+        "src": "ferma/04",
+        "alt": ""
+      },
+      {
+        "src": "ferma/05",
+        "alt": ""
+      },
+      {
+        "src": "ferma/06",
+        "alt": ""
+      },
+      {
+        "src": "ferma/07",
+        "alt": ""
+      },
+      {
+        "src": "ferma/08",
         "alt": ""
       }
+
     ],
+    "imageCount":3,
     "stacks": [
-      "Flutter",
-      "Firebase",
+      "Laravel",
       "MySQL",
-      "PHP"
+      "ApexChart",
+      "SMS",
+      "USSD"
     ],
     "journey": [
       {
         "title": "Background",
-        "description": "<p>Unlike what I had develop in the past, a school management system was a bit far from normal, I had hoped to develop one during my journey as a software engineer but I hadn't been confronted with one just yet. When I had finally gotten a gig request from an NGO in the United Kingdom, the search I presume was for the contract role for a Fullstack Developer, one would argue that the word 'Fullstack' seem benial and far from reality but I thought to myself. If I am to pull this off, I might as well be qualified to refer to myself as one. After meeting with the clients, or potential client as one might prefer; since at that point, I hadn't been officially hired for the position. they eventually disclosed the project concept and won't you guess what it was?! Yes, you guessed right. A <strong>School Management System</strong>, I was more than interested, the experience for me was all that mattered, another dragon to slay and I was also akeen to the project requirements because like what we already established in my biography, I like to give 110%</p>"
+        "description": "<p>Smart sahara's objective was primarily focused on discoveries, research, problem solving then presentation, at the time, My employer; Mr Emmanuel proposed that we solved the problem with bad governments road in Nigeria, due to the countless federal road cutting across state lines, it was perceived that the agency incharge of road maintenance FERMA which stands for Federal Road Maintenance Agency might not be informed to these issues thus the need to create a real time report / response system became a clear path to a solution. After weeks of deliberation, what approach, tools and how to go about the project became vivid thus the concept </p>"
       },
       {
         "title": "Concept",
-        "description": "<p>I was enventually trusted with the oversight and development of the product, they had discussed carefully what they wanted. Although, I am very aware that sometimes, clients aren't always technically savvy thus might end up shooting themselves in the legs, whilst some might know exactly what they want ?! I always offer technical consultation about their products thus giving them a clear path to visualizing what the deliverables are. In this particular project. They wanted something quite different from the generic School Management System. Since it was an NGO, their objectives for this project was to partner with schools in giving out free digital tabs to students where Kidaccess would be pre-installed. Then onboard techers under their already partnered instituion. In this whole paradigm, with an urgency to understand the models, relationships and responsibility these actors had indifferent to one another, I made alot of research and created use cases. The product concept was more like a business to business solution, even though it didn't seem so at first ?! Meeting up to every deliverables projected a much more opportuinistic product with countless problem solving realm to explore.  </p>"
+        "description": "<p>Due to the not so good internet connection along inter-states travel-lines across federal roads in the country, a problem it seemed because if we were to make this work ?! We needed to communicate to the datastore with very minimal connectivity, USSD became a great choice. The concept was to allow users dial a USSD code when they spot a bad road, then creating a good experience that helps them alternate through the process of reporting these data and processing them on the admin panel had to be seamless. We also created a prompt option where users can then choose if they would like to follow up their reports with an image, if they choose to ?! an SMS is then sent to their phone number containing a one-time link where they could take a picture or pictures of the bad road thus completing their report. The agent on the other hand could view reports, users who reported bad roads with analytical data depiction that coordinate better decision making to improve response time to these issues. </p>"
       },
       {
         "title": "Challenges",
-        "description": "<p>There was one distinctive challenge faced during this particular product journey, <br/><strong className='text-light ms-3' style={{color:'#fff'}} >Too Many Shifting Dynamics: </strong>I know this sounds like something out of Seth Macfarlane's series, The Orville but hear me out. It's common for there to be changes in client's objective during the development phase, one could even argue that every software engineer anticipate this especially when you're a freelancer thus working with someone at an idea stage. Yes, I did anticipate shifting dynamics but it became quite a difficulty for me when it became too frequent. Newer upgrades outside the agreed deliverables became so much. Like I said, the product was quite broad that it opened room for a lot of opportuinities and exploits, my client wanted to explore all these exploits during the development which eventually delayed the agreed upon deadline for the product. </p>"
+        "description": "<p>Although this project was vigirously and carefully thought through, the presentation stage took a while, we had contacted the federal govt in regards to the solution and thus met with the CEO, Mr Emmanuel Ogolekwu countless times. Then afterwards, handing over of the project and documenation due to onboarding processes took a while. It was my first time being in a situation where I had to handover a system to the federal govt, it was fun and a great experience but a challenging one nonetheless. </p>"
       }
     ],
     "category": "Laravel",
@@ -72,42 +68,49 @@
       {
         "brand": "Brand",
         "icon": "tag",
-        "value":"Kidaccess",
+        "value":"Smart Sahara",
         "delayAnimation":100
       },
       {
         "brand": "Timeframe",
         "icon": "calendar",
-        "value":"3 Months",
+        "value":"2 Months",
         "delayAnimation":200
       },
       {
         "brand": "Country",
         "icon": "map-pin",
-        "value":"United Kingdom",
+        "value":"Nigeria",
         "delayAnimation":300
       }
     ],
     "reviews":[
       {
-        "name":"Makinde Tunji",
-        "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
-        "img":"",
-        "company":"Freelancer",
-        "role":"UI / UX Designer",
+        "name":"Emmanuel Ogolekwu",
+        "comment":"Ahmed has worked on countless projects under smartsahara and the most important thing to point out is his reliability to finish on time and also meet up to the agreed upon expectations.",
+        "img":"ferma/reviewer01",
+        "company":"Smartsahara",
+        "role":"CEO",
         "stars":5
       }
     ],
-    "url": "https://ferma.smartsahara.com"
+    "live": {
+      "label":"ferma",
+      "url":"https://ferma.smartsahara.com"
+    }
   },
   {
     "id": 3,
     "title": "Anointing Global App",
     "img":"ag/main",
     "subTitle": "Private Church Application",
-    "alterText": "Kidaccess is an e-learning application for students using the Nigerian education system from Nursery 1 to Primary 6. \n This solution, provides a standard prescribed learning courses based on the student classes, a time table, a learning scheme and weekly assements challenges for each of their preferred subjects. In this app, a student can self register or be invited by their designated teacher to onboard the app, afterwards, they are assigned to a specific learning class which could include subjects like, quantitative, verbal reasoning, english, maths etc... Once this is done, they can now unlock weekly assesments set by their designated teachers. \n This is an instant learning application, which means once they answer the questions. Their total score is shown to them for the week and this gets populated to the assesments records for further academic cummulation.",
-    "delayAnimation": "100",
+    "alterText": "Anointing Global Church is one of the biggest churches in Nigeria with over 300,00+ members from different ethincity and languages across Nigeria. The church HQ is located at Lagos, Nigeria, one of the biggest hotspot in sub-saharan West Africa and thus, also having members outside Nigeria who tune into the live stream. Until before the app, most of the church online activities with the objective of reaching out to a wider audience were carried out using social media platforms such as facebook and youTube, exploiting the live streaming features of these social space. The anointing global app solves countless pre-existing problems with the church prior approach to communicating with their target audience such as disseminating crucial and time sensitive information. The app allows user register for free, access church meterials and media assets, church store infuse with a marketplace settings, live stream and many more.",
+    "delayAnimation": "300",
     "images": [
+      {
+        "src": "ag/01",
+        "alt": ""
+      },
       {
         "src": "ag/02",
         "alt": ""
@@ -131,7 +134,330 @@
       {
         "src": "ag/07",
         "alt": ""
+      },
+      {
+        "src": "ag/08",
+        "alt": ""
       }
+
+    ],
+    "stacks": [
+      "Flutter",
+      "Firebase",
+      "MySQL",
+      "PHP",
+      "Laravel"
+    ],
+    "journey": [
+      {
+        "title": "Background",
+        "description": "<p>It was December of 2020, I was with family becase I had travelled back home for an event; my dad's younger brother was getting married and I was thrilled to go back home due to the nature of that year, I hadn't experienced such an unprecedented year due to... you know, it whose name must not be spoken had happened and the entire world was in distress. I was glad to be ending that year with loved ones around and what better celebration to end the year than the union of two people bringing everyone together. I got a call from someone I had worked with on a different project months ago asking if I'd be interested in working on a different project relating to matter of religious importance come January of the next year, A church app he said, as a muslim; I was very much interested to work with someone who preached a different faith from what I practiced. Although people often Nigeria is it odds in religious practices, that's farther from the truth; We had discussed briefly over the phone about the paradigm of the project and a possible timeframe to hitting every milestone. Afterward, an oral agreement to discussing further when I had return from the holidays. </p>"
+      },
+      {
+        "title": "Concept & Approach",
+        "description": "<p>Few days into the New Year, 2021 seemed promising as most people seemed to have adapted to the new way of life and thus created a path of success around these circumstances. A follow up call about the later discussion, the church app came in on the 5th of January 2021; this time, technically driven and astute to requirements and deliverables. Documents exhanged, the concept, A platform to replace using facebook and youTube as a primary tool for live streaming. Since Flutter was to be used, I dived into action, research on live streaming tools, performance data amongst viable choices, reliabilty and community where the main 3 factors I considered. Reasons,   </p><p><strong>Performance:</strong> Live streaming requires a library with a compression algorithm that's lossless, thus increasing the buffered frame interchange and retain quality of the video. if the goal was to have a very similar experience in comparison to using YouTube and Facebook, two tech giant with limitless resources, I had to go with a reasonable performance metrics.</p><p><strong>Reliability:</strong> Using third party API can be a blessing and a blessing and a curse as most open source libraries are legacy libraries and some are forever changing, meaning, modules become depreciated or improved and at times become quite unstable. This is one big developer's dilemma, as it increases the urgency to always check for broken or obsolete code functions. since this isn't an unforseen issue, looking for libraries with stability and a smart means of notifying developers when changes are implemented in their libabries is something to look out for. </p> <p><strong>Comminity:</strong> &quot;Alone we can do so little; together, we can do so much&quot; – Helen Keller; A developer is only as strong as the community they belong to, that's the power of open source because a lot of libraries are developed by incredible developers around the world in the hope of whatever block of code contributed helps out another. When selecting a library, it's important to know how big of a comminity is associated to that library as it becomes easier to debug issues attributed to that library. </p>"
+      }
+
+    ],
+    "category": "Laravel",
+    "timelines": [
+      {
+        "brand": "Brand",
+        "icon": "tag",
+        "value":"Anoiting Global Church",
+        "delayAnimation":100
+      },
+      {
+        "brand": "Timeframe",
+        "icon": "calendar",
+        "value":"3 Months",
+        "delayAnimation":200
+      },
+      {
+        "brand": "Country",
+        "icon": "map-pin",
+        "value":"Nigeria",
+        "delayAnimation":300
+      }
+    ],
+    "reviews":[
+      {
+        "name":"Makinde Tunji",
+        "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
+        "img":"",
+        "company":"Freelancer",
+        "role":"UI / UX Designer",
+        "stars":5
+      }
+    ],
+    "live": {
+      "label":"Coming soon",
+      "url":"#"
+    }
+  },
+  {
+    "id": 6,
+    "img": "m-portfolio-4",
+    "title": "Business Card",
+    "subTitle": "Graphicriver Market",
+    "alterText": "E-Cosmetics",
+    "delayAnimation": "600"
+  },
+  {
+    "id": 4,
+    "img":"albvendor/main",
+    "title": "Albert's Vendor",
+    "subTitle": "PWA Coupon Platform",
+    "alterText": "AlbertsVendor is a 3rd party online vendor that sells racksterli coupons for users across Nigeria, Racksterli is an online digital trading platform or a compact brookers platform that trades assets for people through the means of forex under an agreed percentage income. These incomes are agreed upon based on the category of the coupons bought, due to the high traffic of this coupons, 3rd party vendors becomes a means to speed up sales; Albertsvendor is one of 20 other vendors who sells their coupons manually, in retrospect, AlbertVendor is the first digital platform for these sales thus selling out coupons within minute even when they're not available. ",
+    "delayAnimation": "400",
+    "images": [
+      {
+        "src": "albvendor/01",
+        "alt": ""
+      },
+      {
+        "src": "albvendor/02",
+        "alt": ""
+      },
+      {
+        "src": "albvendor/03",
+        "alt": ""
+      },
+      {
+        "src": "albvendor/04",
+        "alt": ""
+      },
+      {
+        "src": "albvendor/05",
+        "alt": ""
+      },
+      {
+        "src": "albvendor/06",
+        "alt": ""
+      },
+      {
+        "src": "albvendor/07",
+        "alt": ""
+      },
+      {
+        "src": "albvendor/08",
+        "alt": ""
+      }
+
+    ],
+    "stacks": [
+      "MySQL",
+      "PHP",
+      "Laravel"
+    ],
+    "journey": [
+      {
+        "title": "Background",
+        "description": "<p></p>"
+      },
+      {
+        "title": "Concept",
+        "description": "<p>Few days into the New Year, 2021 seemed promising as most people seemed to have adapted to the new way of life and thus created a path of success around these circumstances. A follow up call about the later discussion, the church app came in on the 5th of January 2021; this time, technically driven and astute to requirements and deliverables. Documents exhanged, the concept, A platform to replace using facebook and youTube as a primary tool for live streaming. Since Flutter was to be used, I dived into action, research on live streaming tools, performance data amongst viable choices, reliabilty and community where the main 3 factors I considered. Reasons,   </p><p><strong>Performance:</strong> Live streaming requires a library with a compression algorithm that's lossless, thus increasing the buffered frame interchange and retain quality of the video. if the goal was to have a very similar experience in comparison to using YouTube and Facebook, two tech giant with limitless resources, I had to go with a reasonable performance metrics.</p><p><strong>Reliability:</strong> </p>"
+      },
+      {
+        "title": "Challenges",
+        "description": "<p>There was one distinctive challenge faced during this particular product journey, <br/><strong className='text-light ms-3' style={{color:'#fff'}} >Too Many Shifting Dynamics: </strong>I know this sounds like something out of Seth Macfarlane's series, The Orville but hear me out. It's common for there to be changes in client's objective during the development phase, one could even argue that every software engineer anticipate this especially when you're a freelancer thus working with someone at an idea stage. Yes, I did anticipate shifting dynamics but it became quite a difficulty for me when it became too frequent. Newer upgrades outside the agreed deliverables became so much. Like I said, the product was quite broad that it opened room for a lot of opportuinities and exploits, my client wanted to explore all these exploits during the development which eventually delayed the agreed upon deadline for the product. </p>"
+      }
+    ],
+    "category": "Laravel",
+    "timelines": [
+      {
+        "brand": "Brand",
+        "icon": "tag",
+        "value":"AlbertsVendor",
+        "delayAnimation":100
+      },
+      {
+        "brand": "Timeframe",
+        "icon": "calendar",
+        "value":"2 Weeks",
+        "delayAnimation":200
+      },
+      {
+        "brand": "Country",
+        "icon": "map-pin",
+        "value":"United Kingdom",
+        "delayAnimation":300
+      }
+    ],
+    "reviews":[
+      {
+        "name":"Oloruntola Timileyin",
+        "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
+        "img":"",
+        "company":"Thriftwears",
+        "role":"CEO",
+        "stars":5
+      }
+    ],
+    "live": {
+      "label":"Coming soon",
+      "url":"#"
+    }
+  },
+  {
+    "id": 2,
+    "img": "pwsf/main",
+    "title": "PayWithSellfast",
+    "subTitle": "Digital Marketting Payment Portal",
+    "alterText": "PayWithSellfast is a digital marketting web application that manages and shows illustrated data in forms of charts and tables of users daily engagements, activities and subscription status and also processes fees using flutterwave payment gateway. This product was a sub-strategic realease in relation to sellfast, which is an online marketplace in Nigeria, during the covid 19 pendemic, The instagram page was used to promote people's good on a price plan, thus needing a marketting tool to track users with active subscriptions in order to manage the large numbers of audiences they had acquired at that time",
+    "delayAnimation": "100",
+    "images": [
+
+      {
+        "src": "pwsf/02",
+        "alt": ""
+      },
+      {
+        "src": "pwsf/03",
+        "alt": ""
+      },
+      {
+        "src": "pwsf/04",
+        "alt": ""
+      },{
+        "src": "pwsf/05",
+        "alt": ""
+      },
+      {
+        "src": "pwsf/06",
+        "alt": ""
+      },
+      {
+        "src": "pwsf/07",
+        "alt": ""
+      }
+      , {
+        "src": "pwsf/08",
+        "alt": ""
+      }
+      , {
+        "src": "pwsf/09",
+        "alt": ""
+      },
+      {
+        "src": "pwsf/010",
+        "alt": ""
+      }
+    ],
+    "imageCount":3,
+    "stacks": [
+      "Laravel",
+      "PaymentGateway",
+      "MySQL"
+    ],
+    "journey": [
+      {
+        "title": "Background",
+        "description": "<p>Unlike what I had develop in the past, a school management system was a bit far from normal, I had hoped to develop one during my journey as a software engineer but I hadn't been confronted with one just yet. When I had finally gotten a gig request from an NGO in the United Kingdom, the search I presume was for the contract role for a Fullstack Developer, one would argue that the word 'Fullstack' seem benial and far from reality but I thought to myself. If I am to pull this off, I might as well be qualified to refer to myself as one. After meeting with the clients, or potential client as one might prefer; since at that point, I hadn't been officially hired for the position. they eventually disclosed the project concept and won't you guess what it was?! Yes, you guessed right. A <strong>School Management System</strong>, I was more than interested, the experience for me was all that mattered, another dragon to slay and I was also akeen to the project requirements because like what we already established in my biography, I like to give 110%</p>"
+      },
+      {
+        "title": "Concept",
+        "description": "<p>I was enventually trusted with the oversight and development of the product, they had discussed carefully what they wanted. Although, I am very aware that sometimes, clients aren't always technically savvy thus might end up shooting themselves in the legs, whilst some might know exactly what they want ?! I always offer technical consultation about their products thus giving them a clear path to visualizing what the deliverables are. In this particular project. They wanted something quite different from the generic School Management System. Since it was an NGO, their objectives for this project was to partner with schools in giving out free digital tabs to students where Kidaccess would be pre-installed. Then onboard techers under their already partnered instituion. In this whole paradigm, with an urgency to understand the models, relationships and responsibility these actors had indifferent to one another, I made alot of research and created use cases. The product concept was more like a business to business solution, even though it didn't seem so at first ?! Meeting up to every deliverables projected a much more opportuinistic product with countless problem solving realm to explore.  </p>"
+      },
+      {
+        "title": "Challenges",
+        "description": "<p>There was one distinctive challenge faced during this particular product journey, <br/><strong className='text-light ms-3' style={{color:'#fff'}} >Too Many Shifting Dynamics: </strong>I know this sounds like something out of Seth Macfarlane's series, The Orville but hear me out. It's common for there to be changes in client's objective during the development phase, one could even argue that every software engineer anticipate this especially when you're a freelancer thus working with someone at an idea stage. Yes, I did anticipate shifting dynamics but it became quite a difficulty for me when it became too frequent. Newer upgrades outside the agreed deliverables became so much. Like I said, the product was quite broad that it opened room for a lot of opportuinities and exploits, my client wanted to explore all these exploits during the development which eventually delayed the agreed upon deadline for the product. </p>"
+      }
+    ],
+    "category": "Laravel",
+    "timelines": [
+      {
+        "brand": "Brand",
+        "icon": "tag",
+        "value":"Sellfast",
+        "delayAnimation":100
+      },
+      {
+        "brand": "Timeframe",
+        "icon": "calendar",
+        "value":"2 Months",
+        "delayAnimation":200
+      },
+      {
+        "brand": "Country",
+        "icon": "map-pin",
+        "value":"Nigeria",
+        "delayAnimation":300
+      }
+    ],
+    "reviews":[
+      {
+        "name":"Ezeh A.C Payne",
+        "comment":" Having been in the tech sector for a decade,  excellent work ethics has been a bane working or outsourcing part of our jobs; pressed on delivering a project; we brought Ahmed on board and he has been nothing short of amazing. His attention to details and excellent delivery on ux interface of the project was as we envisage. Great working with him",
+        "img":"",
+        "company":"Knight communications",
+        "role":"Director",
+        "stars":5
+      },
+      {
+        "name":"Makinde Tunji",
+        "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
+        "img":"",
+        "company":"Freelancer",
+        "role":"UI / UX Designer",
+        "stars":5
+      }
+    ],
+    "live":{
+      "label":"Coming soon",
+      "url":"#"
+    }
+  },
+  {
+    "id": 5,
+    "img": "kidaccess/main",
+    "title": "Kidaccess",
+    "subTitle": "Digital e-Learning App",
+    "alterText": "Kidaccess is an e-learning application for students using the Nigerian education system from Nursery 1 to Primary 6. \n This solution, provides a standard prescribed learning courses based on the student classes, a time table, a learning scheme and weekly assements challenges for each of their preferred subjects. In this app, a student can self register or be invited by their designated teacher to onboard the app, afterwards, they are assigned to a specific learning class which could include subjects like, quantitative, verbal reasoning, english, maths etc... Once this is done, they can now unlock weekly assesments set by their designated teachers. \n This is an instant learning application, which means once they answer the questions. Their total score is shown to them for the week and this gets populated to the assesments records for further academic cummulation.",
+    "delayAnimation": "500",
+    "images": [
+      {
+        "src": "kidaccess/01",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/02",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/03",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/04",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/05",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/06",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/07",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/08",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/09",
+        "alt": ""
+      },
+      {
+        "src": "kidaccess/010",
+        "alt": ""
+      }
+
 
     ],
     "stacks": [
@@ -177,6 +503,14 @@
     ],
     "reviews":[
       {
+        "name":"Ezeh A.C Payne",
+        "comment":" Having been in the tech sector for a decade,  excellent work ethics has been a bane working or outsourcing part of our jobs; pressed on delivering a project; we brought Ahmed on board and he has been nothing short of amazing. His attention to details and excellent delivery on ux interface of the project was as we envisage. Great working with him",
+        "img":"",
+        "company":"Knight communications",
+        "role":"Director",
+        "stars":5
+      },
+      {
         "name":"Makinde Tunji",
         "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
         "img":"",
@@ -185,14 +519,9 @@
         "stars":5
       }
     ],
-    "url": "https://ferma.smartsahara.com"
-  },
-  {
-    "id": 4,
-    "img": "kidaccess/cover",
-    "title": "Business Card",
-    "subTitle": "Graphicriver Market",
-    "alterText": "E-Cosmetics",
-    "delayAnimation": "0"
+    "live":{
+      "label":"Coming soon",
+      "url":"#"
+    }
   }
 ]
