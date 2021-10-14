@@ -14,7 +14,7 @@ import useDocumentMeta from "../../components/useDocumentMeta";
 const Home = () => {
   useDocumentMeta("Ahmed Ahmed | Software Engineer & DevOps");
   return (
-    <div id="app_main" className="main-left theme-dark">
+    <main className="main-left main">
       <Header />
       {/* End Header Section */}
 
@@ -93,7 +93,7 @@ const Home = () => {
         </div>
       </footer>
       {/* End Contact Section */}
-    </div>
+    </main>
   );
 };
 

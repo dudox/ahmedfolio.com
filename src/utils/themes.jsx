@@ -1,20 +1,17 @@
 function setTheme(themeName) {
   localStorage.setItem("theme", themeName);
-  // document.documentElement.className = themeName;
-  themeName === "theme-dark"
-    ? setDarkTheme()
-    : setLightMode()
+  document.documentElement.className = themeName;
+  themeName === "theme-dark" ? setDarkTheme() : setLightMode();
 }
 
-function setLightMode(){
+function setLightMode() {
   document.body.classList.add("theme-light");
-  document.getElementById("app_main").classList.remove('theme-dark');
-
+  unsetClassName(document.getElementsByClassName("main"), "theme-dark");
 }
 
 function setDarkTheme() {
   document.body.classList.remove("theme-light");
-  document.getElementById("app_main").classList.add("theme-dark");
+  setClassName(document.getElementsByClassName("main"), "theme-dark");
 }
 
 function keepTheme() {
@@ -26,6 +23,18 @@ function keepTheme() {
     }
   } else {
     setTheme("theme-dark");
+  }
+}
+
+function setClassName(rows, classToAdd) {
+  for (var i = 0; i < rows.length; i++) {
+    rows[i].classList.add(classToAdd);
+  }
+}
+
+function unsetClassName(rows, classToAdd) {
+  for (var i = 0; i < rows.length; i++) {
+    rows[i].classList.remove(classToAdd);
   }
 }
 

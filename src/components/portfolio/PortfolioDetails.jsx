@@ -13,6 +13,7 @@ import PortfolioKey from "./PortfolioKey";
 import PortfolioReview from "./PortfolioReview";
 import useDocumentMeta from "../useDocumentMeta";
 import FeatherIcon from "feather-icons-react";
+import ToggleThemeMode from "../mode/ToggleThemeMode";
 
 const PortfolioDetails = ({ show, setShow, data }) => {
   useDocumentMeta(
@@ -67,9 +68,14 @@ const PortfolioDetails = ({ show, setShow, data }) => {
   };
 
   return (
-    <>
-      <Modal show={show} onHide={() => setShow(setShow)} fullscreen={true}>
-        <div id="app_main" className="app_main theme-dark ">
+    <main>
+      <Modal
+        show={show}
+        onHide={() => setShow(setShow)}
+        fullscreen={true}
+        className="main"
+      >
+        <>
           <FeatherIcon
             icon={"x-circle"}
             size={30}
@@ -79,7 +85,7 @@ const PortfolioDetails = ({ show, setShow, data }) => {
               zIndex: "100000",
               cursor: "pointer",
             }}
-            className="position-absolute theme-light text-warning"
+            className="position-absolute text-warning"
             onClick={() => closeModal()}
           />
           <section
@@ -232,9 +238,9 @@ const PortfolioDetails = ({ show, setShow, data }) => {
             </div>
           </section>
           {/* End Contact Section */}
-        </div>
+        </>
       </Modal>
-    </>
+    </main>
   );
 };
 
