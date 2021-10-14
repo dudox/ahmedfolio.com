@@ -197,11 +197,106 @@
   },
   {
     "id": 6,
-    "img": "m-portfolio-4",
-    "title": "Business Card",
-    "subTitle": "Graphicriver Market",
-    "alterText": "E-Cosmetics",
-    "delayAnimation": "600"
+    "img": "luxury/main",
+    "title": "Luxury Citizenship",
+    "subTitle": "Resort & Travel Agency",
+    "alterText": "Luxury Citizenship provides a turn-key solution to legal second citizenship Whether you are an individual or applying with your family to the various countries they support, They offer trustworthy guidance at every step, ensuring complete peace of mind and a streamlined application process that complies with government regulations. These conducts with Due Diligence checks on all potential clients using the World-Check system, comply with a robust system of AML/CFT/ KYC policies and procedures and store and transmit all client information using secure servers.",
+    "delayAnimation": "600",
+    "images": [
+
+      {
+        "src": "luxury/02",
+        "alt": ""
+      },
+      {
+        "src": "luxury/03",
+        "alt": ""
+      },
+      {
+        "src": "luxury/04",
+        "alt": ""
+      },{
+        "src": "luxury/05",
+        "alt": ""
+      },
+      {
+        "src": "luxury/06",
+        "alt": ""
+      },
+      {
+        "src": "luxury/07",
+        "alt": ""
+      }
+      , {
+        "src": "luxury/08",
+        "alt": ""
+      }
+      , {
+        "src": "luxury/09",
+        "alt": ""
+      },
+      {
+        "src": "luxury/010",
+        "alt": ""
+      }
+    ],
+    "imageCount":3,
+    "stacks": [
+      "Laravel",
+      "MySQL",
+      "DigitalOcean",
+      "SMTP"
+    ],
+    "journey": [
+      {
+        "title": "Background",
+        "description": "<p>I received a notification on Upwork about a short contract job which piqued my interest as I went on to placing a bid for the opportuinity, I eventually got a response after 5 days from someone by the name David, he wanted to meet over on zoom to discuss the opportuinity, after a 30 min discussion, I noticed he wasn't assure then I offered to start the work but uploading it on a temporary linked where he could have access to my progress, and if he was comfortable with my work ethics, I would take charge of the entire work, it worked as I was able to put his mind to rest and thus commencing on the work. He explained what he was into, and wanted a platform where he could easily engage with his target audiences and a means they could use to reach out to him. It was a very simple project but one very detailed on UI design.</p>"
+      },
+      {
+        "title": "Concept",
+        "description": "<p>I told him to make a rough sketch so I could get a UI/UX person involved to design something cut to his specification which he did. As soon as we were done with the design journey, I realized it wasn't as simple as I had imagined. So I told him I was going to design a landing page to see if he liked the live version of it. I had gotten back to him after a week and he was impressed and agreed to hand over the entire project to me. The concept was for the site to have all the information his client would require to understanding how his processes worked and a blog page where he could write articles and most importantly, a contact us form where his clients could reach out to him if they were interested to had any questions to ask.</p>"
+      },
+      {
+        "title": "Challenges",
+        "description": "<p>Having to agree on a single design approach was a little bit fuzzy, I had to pay close attention to what he wanted and concluded in making improvisions if he liked it, if he didn't ?! I would remove; until I brought in a UI/UX person which was better able to translate his design approach. It was a bitter sweet experience but a great one nonetheless.</p>"
+      }
+    ],
+    "category": "Laravel",
+    "timelines": [
+      {
+        "brand": "Brand",
+        "icon": "tag",
+        "value":"Sellfast",
+        "delayAnimation":100
+      },
+      {
+        "brand": "Timeframe",
+        "icon": "calendar",
+        "value":"2 Months",
+        "delayAnimation":200
+      },
+      {
+        "brand": "Country",
+        "icon": "map-pin",
+        "value":"Nigeria",
+        "delayAnimation":300
+      }
+    ],
+    "reviews":[
+
+      {
+        "name":"David Matthew",
+        "comment":"I met Ahmed on upwork and although his resume seemed impressive, I was a bit skeptical. I gave him the project in good faith and he didn't dissapoint me; he is a smart and incredible at what he does.",
+        "img":"",
+        "company":"Luxury Citizenship",
+        "role":"CEO",
+        "stars":5
+      }
+    ],
+    "live":{
+      "label":"Luxury Citizenship",
+      "url":"https://luxurycitizenship.com"
+    }
   },
   {
     "id": 4,
@@ -253,16 +348,13 @@
     "journey": [
       {
         "title": "Background",
-        "description": "<p></p>"
+        "description": "<p>I got a call from a friend of mine who was studying an Msc in Cyber Security in the United Kingdom, he had a side business, one he used as a secondary income; A coupon marchant he said and he's been getting so much traffic that he's also been losing sales due to the time lapses between his studies and when his customers needed his attention. Due to the manual nature of his business approach, it wasn't working out and thus, he knew he needed to take a dire action because he was heading towards a consequential business failure. He spoke to me about his business processes and asked if there was a way to automate the sales of these coupons even when he wasn't remote available to personally attend to his customers; I gave an answer any developer would've. Yes, Yes I have just the right solution I said. </p>"
       },
       {
         "title": "Concept",
-        "description": "<p>Few days into the New Year, 2021 seemed promising as most people seemed to have adapted to the new way of life and thus created a path of success around these circumstances. A follow up call about the later discussion, the church app came in on the 5th of January 2021; this time, technically driven and astute to requirements and deliverables. Documents exhanged, the concept, A platform to replace using facebook and youTube as a primary tool for live streaming. Since Flutter was to be used, I dived into action, research on live streaming tools, performance data amongst viable choices, reliabilty and community where the main 3 factors I considered. Reasons,   </p><p><strong>Performance:</strong> Live streaming requires a library with a compression algorithm that's lossless, thus increasing the buffered frame interchange and retain quality of the video. if the goal was to have a very similar experience in comparison to using YouTube and Facebook, two tech giant with limitless resources, I had to go with a reasonable performance metrics.</p><p><strong>Reliability:</strong> </p>"
-      },
-      {
-        "title": "Challenges",
-        "description": "<p>There was one distinctive challenge faced during this particular product journey, <br/><strong className='text-light ms-3' style={{color:'#fff'}} >Too Many Shifting Dynamics: </strong>I know this sounds like something out of Seth Macfarlane's series, The Orville but hear me out. It's common for there to be changes in client's objective during the development phase, one could even argue that every software engineer anticipate this especially when you're a freelancer thus working with someone at an idea stage. Yes, I did anticipate shifting dynamics but it became quite a difficulty for me when it became too frequent. Newer upgrades outside the agreed deliverables became so much. Like I said, the product was quite broad that it opened room for a lot of opportuinities and exploits, my client wanted to explore all these exploits during the development which eventually delayed the agreed upon deadline for the product. </p>"
+        "description": "<p>The priority, to improve the sales of the already huge traffic he has been gainning as a vendor. The concept, was to create a platform where he could upload all coupons in categories into the system, implement a payment gateway that help process the payment transactions and a way to deliver this coupons automatically via email or phone number. We had done a test run of the product after completion, then we realized we needed to engage user, thus creating accounts and sessions where could track all the coupons bought and also placing more order without having to reissue their personal credentials. We concluded we need to create a account approach where users could register, sign in, place orders and track coupons effectively thus increasing the sales for my client and improving the user experience for the entire process leading to outpour of praises from his target audiences and his competitors.</p>"
       }
+
     ],
     "category": "Laravel",
     "timelines": [
@@ -288,7 +380,7 @@
     "reviews":[
       {
         "name":"Oloruntola Timileyin",
-        "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
+        "comment":"Ahmed's has a very quick response time to situations, the performance of the website was fast and kept up to the deadline. Even after completing the project, he kept intouch to know if the site had any issues or if there were anything needed of him to do. Great guy.",
         "img":"",
         "company":"Thriftwears",
         "role":"CEO",
@@ -354,15 +446,11 @@
     "journey": [
       {
         "title": "Background",
-        "description": "<p>Unlike what I had develop in the past, a school management system was a bit far from normal, I had hoped to develop one during my journey as a software engineer but I hadn't been confronted with one just yet. When I had finally gotten a gig request from an NGO in the United Kingdom, the search I presume was for the contract role for a Fullstack Developer, one would argue that the word 'Fullstack' seem benial and far from reality but I thought to myself. If I am to pull this off, I might as well be qualified to refer to myself as one. After meeting with the clients, or potential client as one might prefer; since at that point, I hadn't been officially hired for the position. they eventually disclosed the project concept and won't you guess what it was?! Yes, you guessed right. A <strong>School Management System</strong>, I was more than interested, the experience for me was all that mattered, another dragon to slay and I was also akeen to the project requirements because like what we already established in my biography, I like to give 110%</p>"
+        "description": "<p>After a couple of projects down, we had ran some ads campaign for some of the incredible products we had developed, we came across some ads marketting agency and their prices were a bit too expensive. Due to the nature of the year, a lot of people struggled financially due to the lockdown as some companies had to let their employees ago. It became the perfect opportunity and an idea for a product, the goal; run ads campaign for business owners at a very affordable rate. Within a week of launching this new campaign, we gained over 10,000 followers on instagram and a lot of business owners started sending in DM's wanting us to run ads for them on our sellfast social media handles, this test run had proven to be effective, even with about 5 to 6 sales representative on ground, it became too much to handle. Now we needed to build a platform that manages the process effectively in tracking down users requests.</p>"
       },
       {
         "title": "Concept",
-        "description": "<p>I was enventually trusted with the oversight and development of the product, they had discussed carefully what they wanted. Although, I am very aware that sometimes, clients aren't always technically savvy thus might end up shooting themselves in the legs, whilst some might know exactly what they want ?! I always offer technical consultation about their products thus giving them a clear path to visualizing what the deliverables are. In this particular project. They wanted something quite different from the generic School Management System. Since it was an NGO, their objectives for this project was to partner with schools in giving out free digital tabs to students where Kidaccess would be pre-installed. Then onboard techers under their already partnered instituion. In this whole paradigm, with an urgency to understand the models, relationships and responsibility these actors had indifferent to one another, I made alot of research and created use cases. The product concept was more like a business to business solution, even though it didn't seem so at first ?! Meeting up to every deliverables projected a much more opportuinistic product with countless problem solving realm to explore.  </p>"
-      },
-      {
-        "title": "Challenges",
-        "description": "<p>There was one distinctive challenge faced during this particular product journey, <br/><strong className='text-light ms-3' style={{color:'#fff'}} >Too Many Shifting Dynamics: </strong>I know this sounds like something out of Seth Macfarlane's series, The Orville but hear me out. It's common for there to be changes in client's objective during the development phase, one could even argue that every software engineer anticipate this especially when you're a freelancer thus working with someone at an idea stage. Yes, I did anticipate shifting dynamics but it became quite a difficulty for me when it became too frequent. Newer upgrades outside the agreed deliverables became so much. Like I said, the product was quite broad that it opened room for a lot of opportuinities and exploits, my client wanted to explore all these exploits during the development which eventually delayed the agreed upon deadline for the product. </p>"
+        "description": "<p>The goal was to organize, manage users activities and subscription in order to better synchronize with the live campaign going on. The Digital Marketting Tool PayWithSellfast was a way to keep tabs on which user had an active running campaign, the traffic growth and analytics to show the income insight real time and within a spaced out period of time. A payment gateway by flutterwave was used for transactional activities within sellfast and the user, then aftwards their informations including their social media handles are capture and their subscription starts; At this point, both parties are alerted via SMS and their campaigns becomes live were could see and interact with their target audience, this also made it easier for the sales team to effectively know when the subscription ends and they're alerted as the processes are automated.  </p>"
       }
     ],
     "category": "Laravel",
@@ -387,20 +475,13 @@
       }
     ],
     "reviews":[
+
       {
-        "name":"Ezeh A.C Payne",
-        "comment":" Having been in the tech sector for a decade,  excellent work ethics has been a bane working or outsourcing part of our jobs; pressed on delivering a project; we brought Ahmed on board and he has been nothing short of amazing. His attention to details and excellent delivery on ux interface of the project was as we envisage. Great working with him",
+        "name":"Emmanuel Egolegwu",
+        "comment":"Ahmed has worked on countless projects under smartsahara and the most important thing to point out is his reliability to finish on time and also meet up to the agreed upon expectations.",
         "img":"",
-        "company":"Knight communications",
-        "role":"Director",
-        "stars":5
-      },
-      {
-        "name":"Makinde Tunji",
-        "comment":"Ahmed has an incredible eye for translating designs to an acute similarity of the approved UI, that he is a great person to work with is an understatement, always ready to improvise to accomodate others when there are set backs. ",
-        "img":"",
-        "company":"Freelancer",
-        "role":"UI / UX Designer",
+        "company":"Smartsahara",
+        "role":"CEO",
         "stars":5
       }
     ],

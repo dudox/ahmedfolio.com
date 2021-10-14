@@ -100,7 +100,9 @@ const PortfolioDetails = ({ show, setShow, data }) => {
               <p>
                 Live Website:{" "}
                 {data.live ? (
-                  <a href={data.live["url"]}>{data.live["label"]}</a>
+                  <a href={data.live["url"]} target="_blank" rel="noreferrer">
+                    {data.live["label"]}
+                  </a>
                 ) : (
                   ""
                 )}

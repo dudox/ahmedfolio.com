@@ -12,8 +12,8 @@ const ServiceContent = [
   {
     icon: "icon-desktop",
     title: "DevOps & Cloud Consulting",
-    descriptions: `I provide cloud consultting, helping small business scale their systems to a wider audience based on 
-    their budgets, setting up ci/cd automation, kubernetes, docker and microservices architecture`,
+    descriptions: `I provide cloud consultting, helping small business scale their systems to a wider audience based on
+    their budgets, setting up ci/cd , kubernetes, docker & microservices architecture`,
     delayAnimation: "200",
   },
   {

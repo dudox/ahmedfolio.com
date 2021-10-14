@@ -48,11 +48,19 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Software Engineer with over 5 years of professional working
-                    experience from Lagos, Nigeria. I find business models to be one of the apt. curious areas in development as it gives you an insight into the mind of the product owner and an avenue to creating unique problem solving solutions.
+                    I'm a Software Engineer with over 5 years of professional
+                    working experience from Lagos, Nigeria. I find business
+                    models to be one of the apt. curious areas in development as
+                    it gives you an insight into the mind of the product owner
+                    and an avenue to creating unique problem solving solutions.
                   </p>
                   <p>
-                    I find solace in what I do, brings me closer to understanding the world at large, problems people face on a daily bases and I get to work with the most brilliant and inspiring people on the planet. I am the type of person who pours water into a jar till it overflows because I love to give 110% at all time.
+                    I find solace in what I do, brings me closer to
+                    understanding the world at large, problems people face on a
+                    daily basis and I get to work with the most brilliant and
+                    inspiring people on the planet. I am the type of person who
+                    pours water into a jar till it overflows because I love to
+                    give 110% at all time.
                   </p>
                 </div>
                 <div className="info-list">
@@ -64,7 +72,7 @@ const About = () => {
                           <span>Ahmed Ahmed</span>
                         </li>
                         <li>
-                          <label>Courses: </label>
+                          <label>Cause: </label>
                           <span>#MentalHealth, #ClimateChange</span>
                         </li>
                         <li>
