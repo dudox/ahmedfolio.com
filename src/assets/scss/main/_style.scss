@@ -2,7 +2,8 @@
 ---------------------*/
 .section {
   padding: 100px 0;
-  position: relative;
+  position: initial;
+  height: auto;
   @include down-md {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -949,3 +950,5 @@
     display: none;
   }
 }
+
+
